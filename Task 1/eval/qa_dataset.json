@@ -1,0 +1,222 @@
+[
+  {
+    "id": "q01",
+    "question": "What are the three storage tiers offered by Nimbus?",
+    "gold_answer": "Standard, Infrequent Access, and Archive.",
+    "relevant_source_docs": [
+      "product_overview.md"
+    ]
+  },
+  {
+    "id": "q02",
+    "question": "How much does the Archive tier cost per GB per month?",
+    "gold_answer": "$0.004 per GB per month.",
+    "relevant_source_docs": [
+      "product_overview.md"
+    ]
+  },
+  {
+    "id": "q03",
+    "question": "What is the minimum storage duration for the Infrequent Access tier?",
+    "gold_answer": "30 days.",
+    "relevant_source_docs": [
+      "product_overview.md"
+    ]
+  },
+  {
+    "id": "q04",
+    "question": "How many regions does Nimbus operate in and what are they?",
+    "gold_answer": "Four regions: us-east-1, us-west-2, eu-central-1, and ap-southeast-1.",
+    "relevant_source_docs": [
+      "product_overview.md"
+    ]
+  },
+  {
+    "id": "q05",
+    "question": "What is the maximum size of a single object in Nimbus?",
+    "gold_answer": "5 terabytes.",
+    "relevant_source_docs": [
+      "product_overview.md"
+    ]
+  },
+  {
+    "id": "q06",
+    "question": "What durability does Nimbus advertise for the Standard tier?",
+    "gold_answer": "99.999999999% (eleven nines) durability.",
+    "relevant_source_docs": [
+      "product_overview.md"
+    ]
+  },
+  {
+    "id": "q07",
+    "question": "What algorithm is used for signing API requests to Nimbus?",
+    "gold_answer": "HMAC-SHA256.",
+    "relevant_source_docs": [
+      "security_policy.md"
+    ]
+  },
+  {
+    "id": "q08",
+    "question": "What encryption is used for data at rest by default?",
+    "gold_answer": "AES-256, enabled by default with no extra configuration.",
+    "relevant_source_docs": [
+      "security_policy.md"
+    ]
+  },
+  {
+    "id": "q09",
+    "question": "Which plans include the Customer-Managed Key (CMK) feature?",
+    "gold_answer": "Business and Enterprise plans.",
+    "relevant_source_docs": [
+      "security_policy.md"
+    ]
+  },
+  {
+    "id": "q10",
+    "question": "Are newly created buckets public or private by default?",
+    "gold_answer": "Private by default; public read access must be explicitly enabled.",
+    "relevant_source_docs": [
+      "security_policy.md"
+    ]
+  },
+  {
+    "id": "q11",
+    "question": "How long are access logs retained by default?",
+    "gold_answer": "90 days, unless a longer retention period is configured.",
+    "relevant_source_docs": [
+      "security_policy.md"
+    ]
+  },
+  {
+    "id": "q12",
+    "question": "Does Nimbus offer a HIPAA-compliant storage tier?",
+    "gold_answer": "No, it does not currently offer a HIPAA-compliant tier.",
+    "relevant_source_docs": [
+      "security_policy.md"
+    ]
+  },
+  {
+    "id": "q13",
+    "question": "How much does data transfer out to the internet cost, and is any of it free?",
+    "gold_answer": "$0.09 per GB, with the first 10 GB per month free.",
+    "relevant_source_docs": [
+      "billing_faq.html"
+    ]
+  },
+  {
+    "id": "q14",
+    "question": "How much free storage do new accounts get and for how long?",
+    "gold_answer": "25 GB of Standard tier storage free for the first 12 months.",
+    "relevant_source_docs": [
+      "billing_faq.html"
+    ]
+  },
+  {
+    "id": "q15",
+    "question": "What happens if a payment fails and both retries also fail?",
+    "gold_answer": "The account enters a 15-day grace period with read access but no new uploads, then is suspended and data is deleted 30 days after suspension if unpaid.",
+    "relevant_source_docs": [
+      "billing_faq.html"
+    ]
+  },
+  {
+    "id": "q16",
+    "question": "What discount is available for committed usage, and what is required to get it?",
+    "gold_answer": "A 20% discount on the Standard tier rate for committing to at least 50 TB stored for 12 months, arranged with the sales team.",
+    "relevant_source_docs": [
+      "billing_faq.html"
+    ]
+  },
+  {
+    "id": "q17",
+    "question": "What is the default GET/HEAD request rate limit per bucket?",
+    "gold_answer": "5,500 GET/HEAD requests per second per bucket.",
+    "relevant_source_docs": [
+      "api_reference.md"
+    ]
+  },
+  {
+    "id": "q18",
+    "question": "What is the minimum part size for multipart upload, and how many parts are allowed at most?",
+    "gold_answer": "Parts must be at least 5 MB (except the last part), with a maximum of 10,000 parts.",
+    "relevant_source_docs": [
+      "api_reference.md"
+    ]
+  },
+  {
+    "id": "q19",
+    "question": "Can bucket versioning be disabled once enabled?",
+    "gold_answer": "No, it cannot be disabled once enabled, only suspended.",
+    "relevant_source_docs": [
+      "api_reference.md"
+    ]
+  },
+  {
+    "id": "q20",
+    "question": "What does a 409 error typically mean in the Nimbus API?",
+    "gold_answer": "A conflict, typically from trying to delete a non-empty bucket without the force flag.",
+    "relevant_source_docs": [
+      "api_reference.md"
+    ]
+  },
+  {
+    "id": "q21",
+    "question": "How often are lifecycle rules evaluated?",
+    "gold_answer": "Once per day.",
+    "relevant_source_docs": [
+      "api_reference.md"
+    ]
+  },
+  {
+    "id": "q22",
+    "question": "What TLS version does Nimbus require at minimum for data in transit?",
+    "gold_answer": "TLS 1.2 or higher; earlier versions are rejected.",
+    "relevant_source_docs": [
+      "security_policy.md"
+    ]
+  },
+  {
+    "id": "q23",
+    "question": "What is Nimbus's refund policy for annual contracts?",
+    "gold_answer": "NO_ANSWER",
+    "relevant_source_docs": []
+  },
+  {
+    "id": "q24",
+    "question": "Does Nimbus support GPU-accelerated compute instances?",
+    "gold_answer": "NO_ANSWER",
+    "relevant_source_docs": []
+  },
+  {
+    "id": "q25",
+    "question": "What is the retrieval fee for the Infrequent Access tier?",
+    "gold_answer": "$0.01 per GB.",
+    "relevant_source_docs": [
+      "product_overview.md"
+    ]
+  },
+  {
+    "id": "q26",
+    "question": "Which vector database does the Nimbus reference implementation use?",
+    "gold_answer": "ChromaDB.",
+    "relevant_source_docs": [
+      "system_architecture.pdf"
+    ]
+  },
+  {
+    "id": "q27",
+    "question": "Which embedding model is used in the Nimbus reference implementation?",
+    "gold_answer": "all-MiniLM-L6-v2.",
+    "relevant_source_docs": [
+      "system_architecture.pdf"
+    ]
+  },
+  {
+    "id": "q28",
+    "question": "What happens to a user question at query time in the Nimbus RAG pipeline?",
+    "gold_answer": "The question is embedded and the most similar chunks are retrieved.",
+    "relevant_source_docs": [
+      "system_architecture.pdf"
+    ]
+  }
+]

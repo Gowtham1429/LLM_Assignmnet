@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital of France?",
+    "expected_answer": "Paris",
+    "answer_a": "The capital of France is Paris.",
+    "answer_b": "The capital of France is London.",
+    "gold_winner": "A"
+  },
+  {
+    "id": 2,
+    "question": "What is 2 + 2?",
+    "expected_answer": "4",
+    "answer_a": "2 + 2 is 4.",
+    "answer_b": "2 + 2 is 5.",
+    "gold_winner": "A"
+  },
+  {
+    "id": 3,
+    "question": "Name the largest planet in our solar system.",
+    "expected_answer": "Jupiter",
+    "answer_a": "Jupiter is the largest planet in our solar system.",
+    "answer_b": "Earth is the largest planet in our solar system.",
+    "gold_winner": "A"
+  },
+  {
+    "id": 4,
+    "question": "What gas do plants mainly absorb from the atmosphere?",
+    "expected_answer": "Carbon dioxide",
+    "answer_a": "Plants mainly absorb carbon dioxide.",
+    "answer_b": "Plants mainly absorb oxygen for photosynthesis.",
+    "gold_winner": "A"
+  },
+  {
+    "id": 5,
+    "question": "Who wrote Romeo and Juliet?",
+    "expected_answer": "William Shakespeare",
+    "answer_a": "Charles Dickens wrote Romeo and Juliet.",
+    "answer_b": "William Shakespeare wrote Romeo and Juliet.",
+    "gold_winner": "B"
+  },
+  {
+    "id": 6,
+    "question": "What is the boiling point of water at sea level in Celsius?",
+    "expected_answer": "100 degrees Celsius",
+    "answer_a": "Water boils at 90 degrees Celsius at sea level.",
+    "answer_b": "Water boils at 100 degrees Celsius at sea level.",
+    "gold_winner": "B"
+  }
+]
