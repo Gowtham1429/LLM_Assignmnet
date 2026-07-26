@@ -1,8 +1,0 @@
-.env
-chroma_store/
-results/*.jsonl
-results/eval_results.json
-__pycache__/
-*.pyc
-.venv/
-venv/
